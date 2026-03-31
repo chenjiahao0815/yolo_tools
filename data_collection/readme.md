@@ -1,6 +1,6 @@
 # <span style="text-transform: uppercase;">数据采集脚本</span>
-## RGB.py\
-### 功能说明\
+## RGB.py
+### 功能说明
 ```txt
 订阅四个相机话题（前、后、左、右），话题名与原始代码保持一致。
 
@@ -36,3 +36,8 @@ python3 RGB.py/RGBD.py
 ```
 ### 数据采集标准：（在保证数据质量的前提下，尽可能的多采集真实场景的数据）
 
+## 数据前期清洗
+```txt
+# 主要清洗部分异常编码的图像（异常编码的图像数据会影响模型训练）
+python3 find_corrupt_jpegs.py
+```
