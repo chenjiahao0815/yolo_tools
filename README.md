@@ -16,3 +16,10 @@ pip install ultralytics
   <br>
   <em>图1: ultralytics目录</em>
 </div>
+
+### 2.模型的配置文件
+```txt
+模型的配置文件在ultralytics/cfg/models目录下（yolo3，5，6，8，9，10，11，12，26）
+
+```
+
