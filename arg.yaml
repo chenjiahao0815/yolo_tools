@@ -22,7 +22,7 @@ deterministic: true              # 是否使用确定性算法（保证完全可
 single_cls: false                # 是否作为单类别训练（所有类别视为同一类）
 rect: false                      # 是否使用矩形训练（将图像按长宽比分批，减少填充）
 cos_lr: true                     # 是否使用余弦退火学习率调度器
-close_mosaic: 0                  # 在最后N轮关闭马赛克增强（0表示不关闭）
+close_mosaic: 10                  # 在最后N轮关闭马赛克增强（0表示不关闭）
 resume: false                    # 是否从上次中断的训练恢复（需指定checkpoint）
 amp: true                        # 是否使用自动混合精度训练（加速、省显存）
 fraction: 1.0                    # 数据集使用比例（1.0表示全量，0.5表示一半）
