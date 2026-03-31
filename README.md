@@ -8,6 +8,6 @@
 ## ultralytics文档说明
 ### 1.安装
 ```bash
-# bash
+# bash（安装的包一般是在：miniconda3/lib/python3.8/site-packages/ultralytics）
 pip install ultralytics
 ```
