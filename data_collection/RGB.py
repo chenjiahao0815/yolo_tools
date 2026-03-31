@@ -18,7 +18,7 @@ class ImageSaver(Node):
     def __init__(self):
         super().__init__('image_saver')
 
-        # 相机配置（只保留话题和保存路径）
+        # 相机配置
         self.cameras = {
             'front': {
                 'topic': '/rgb_camera_front/compressed',
