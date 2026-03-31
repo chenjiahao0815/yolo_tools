@@ -50,3 +50,8 @@ pip install ultralytics
 
 - 数据集分析：
   模型训练开始时会生成相关数据集label统计信息
+  <div align="center">
+  <img src="labels.jpg" alt="ultralytics" width="1000">
+  <br>
+  <em>图3: labels示例</em>
+</div>
