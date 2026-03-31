@@ -48,10 +48,11 @@ pip install ultralytics
 
 ### 5.模型优化之数据分布分析和优化方法参考
 
-- 数据集分析：
-  模型训练开始时会生成相关数据集label统计信息
+- 数据集分析，以yolo11_Adown.yaml为例：
+  模型训练开始时会生成相关数据集label统计信息,如实例的数量（检测框的数量），检测目标的长宽，数量越多颜色越深，以及检测目标的尺度分布
   <div align="center">
   <img src="labels.jpg" alt="ultralytics" width="1000">
   <br>
   <em>图3: labels示例</em>
 </div>
+图3示例可知尺度跨度大，大量小尺度的目标，即可以在原yolo结构的基础上，从小尺度目标上改模型结构。
