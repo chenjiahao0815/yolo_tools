@@ -6,7 +6,7 @@
 
 # 二、模型训练（ultralytics文档说明，模型训练以及机器人目标检测训练trick，相关参数快速入门，以及模型结构修改教程）
 ## ultralytics文档说明
-### 1.安装
+### 1.安装及 ultralytics说明
 ```bash
 # bash（安装的包一般是在：miniconda3/lib/python3.8/site-packages/ultralytics）
 pip install ultralytics
