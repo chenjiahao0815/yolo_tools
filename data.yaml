@@ -1,0 +1,13 @@
+# 重新划分的数据集配置文件
+# 基于置信度文件筛选，按7:3划分训练集和验证集
+
+path: /root/autodl-tmp/FireAndGarbage  # 数据集根目录
+
+train: images/train  # 训练集相对路径
+val: images/val      # 验证集相对路径
+
+# 类别数量（根据实际修改）
+nc: 5
+
+# 类别名称（根据实际修改）
+names: ['fire', 'smoke','leafs','sewage','tissuse']
