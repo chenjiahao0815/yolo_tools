@@ -11,3 +11,8 @@
 # bash（安装的包一般是在：miniconda3/lib/python3.8/site-packages/ultralytics）
 pip install ultralytics
 ```
+<div align="center">
+  <img src="ultralytics.png" alt="ultralytics" width="1000">
+  <br>
+  <em>图1: ultralytics目录</em>
+</div>
