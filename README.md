@@ -1,4 +1,4 @@
-# yolo目标检测数据采集，清理，划分，检查工具包
+# YOLO目标检测数据采集，清理，划分，检查工具包
 - data_collection: ROS2机器人数据采集（主要是RGB和RGBD数据，以及过滤掉损坏图片的工具）
 - format_conversion: 数据转换工具，数据标注结合labelme（内含SAM3分割大模型可以辅助标注数据，标注完后通过mask转txt可以快速生成标签）
 - train_tricks:后续提升模型的泛化性和提升单个模型的检测数量的数据处理工具
