@@ -58,6 +58,17 @@
 import torch
 from pathlib import Path
 import yaml
+```
+
+# 图片文件夹配套空标签文件生成工具（negative_sample.py 主要用于生成yolo的负样本）
+
+## 功能简介
+遍历指定文件夹中的所有图片文件，为每个图片创建一个**同名的空 `.txt` 文件**。如果对应的 `.txt` 文件已存在，则跳过不覆盖。  
+该工具常用于 YOLO 等目标检测任务的**数据预处理**阶段，为只有图片而没有标注文件的数据集生成占位标签文件，便于后续统一标注或批量处理。
+
+## 函数原型
+```python
+create_txt_for_images(folder_path: str) -> None
 from torch.utils.data import DataLoader
 
 # 确保安装了依赖
